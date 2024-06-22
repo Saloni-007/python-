@@ -1,0 +1,25 @@
+# Creating  dictionary
+person = {"name": "john", "age": 30,
+"city": "New York"}
+print(f"Original distionary: {person}")
+
+# Accessing values
+print(f"Name: {person['name']}")
+
+# Modifying values
+person["age"] = 31
+print(f"Modified dictionary: {person}")
+
+# Adding key-value pairs
+person["email"] = "john@example.com"
+print(f"Dictionary after adding email:
+{person}")
+
+# Removing key-value pairs
+del person["city"]
+print(f"Dictionary after removing 'city':
+{person}")
+
+# Iterating over a dictionary 
+for key, value in person.items():
+    print(f"{key}: {value}")
