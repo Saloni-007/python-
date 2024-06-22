@@ -1,0 +1,20 @@
+def check_number(n):
+    if n > 0:
+        return "Positive"
+    elif n < 0:
+         return "Negative"
+    else:
+        return "Zero"
+
+def is_even_or_odd(n):
+    if n % 2 == 0:
+        return "Even"
+    else:
+        return "Odd"
+
+#sample usage
+number = -4
+positivity = check_number(number)
+parity = is_even_or_odd(number)
+print(f"The number {number} is
+{positivity} and {parity}."
