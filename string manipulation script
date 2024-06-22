@@ -1,0 +1,18 @@
+def string_manipulations(s)
+    reversed_string=s[::-1]
+    uppercase_string=s.upper()
+    lowercase_string=s.lower()
+    title_case_string=s.little()
+    reverse reversed_string,
+uppercase_string, lowercase_string,
+title_case_string
+
+#sample usage
+sample_string="Hello, World!"
+reversed_string, uppercase_string,
+lowercse_string, title_case_string=
+string_manipulations(sample_string)
+print(f"Reversed: {reversed_string}")
+print(f"Uppercase: {uppercase_string}")
+print(f"Lowercase: {lowecase_string}")
+print(f"Title Case: {title_case_string}")
