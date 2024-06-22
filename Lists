@@ -1,0 +1,22 @@
+# Creating a list
+fruits = ["apple", "banana", "cherry"]
+print(f"Original list: {fruits}")
+
+# Accessing elements
+print(f"First fruit: {fruits[0]}")
+
+# Modifying elements
+fruits[1] = "bluberry"
+print(f"Modified list: {fruits}")
+
+# Adding elements
+fruits.append("date")
+print(f"List after appending: {fruits}")
+
+# Removing elements
+fruits.remove("cherry")
+print(f"List after removing 'cherry':
+{fruits}")
+
+# Slicing a list
+print(f"First two fruits:{fruits[:2]}")
