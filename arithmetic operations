@@ -1,0 +1,20 @@
+def arithmetic_operations(a,b):
+    sum_result=a+b
+    difference=a-b
+    product=a*b
+    if b!=0:
+        quotient=a/b
+    else:
+        quotient="Division by zero is not allowed"
+
+    return sum_result, difference, product, quotient
+
+#sample usage
+a=10
+b=5
+sum_result, difference, product, quotient
+=arithmetic_operations(a,b)
+print(f"Sum: {sum_result}, Difference:
+{difference}, Product: {product},
+Quotient: {quotient}")
+ 
