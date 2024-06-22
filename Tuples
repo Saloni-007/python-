@@ -1,0 +1,23 @@
+# Creating a tuple
+coordinates = (10.0, 20.0)
+print(f"Original tuple: {coordinates}")
+
+# Accessing elements 
+print(f"First coordinate:
+{coordinates[0]}")
+
+# Tuples are immutable, so we cannot
+modify their elements
+# But we can create a new tuple with
+modified values
+new_coordinates = (coordinates[0], 30.0)
+print(f"New tuple: {new_coordinates}")
+
+# Tuple unpacking
+x, y = coordinates
+print(f"x: {x}, y: {y}")
+
+# Creating a single-element tuple
+single_element_tuple = (42,)
+print(f"single element tuple:
+{single_element_tuple}")
